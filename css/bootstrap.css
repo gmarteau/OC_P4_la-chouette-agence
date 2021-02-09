@@ -1440,6 +1440,18 @@ img {
     height: auto
 }
 
+@media (max-width: 767px) {
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+        max-width: 55%;
+        height: auto;
+        margin: auto;
+    }
+}
+
 .img-rounded {
     border-radius: 6px
 }
