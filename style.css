@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, 1);
+    color: #000;
 }
 
 .d-bloc button:hover {
@@ -119,6 +119,19 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
+.d-bloc a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.black {
+    color: #000;
+}
+
+.d-bloc .col-sm-4:not(ul) {
+    font-weight: bold;
+}
+
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -133,7 +146,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #fff;
+    color: #000;
 }
 
 .d-bloc .a-btn:hover,
@@ -651,7 +664,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
